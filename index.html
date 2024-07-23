@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Book Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#books">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search for books" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron text-center my-4">
+            <h1 class="display-4">Welcome to Our Book Store</h1>
+            <p class="lead">Find your next great read with us</p>
+            <a class="btn btn-primary btn-lg" href="#books" role="button">Shop Now</a>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Featured Book 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Featured Book 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Featured Book 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section id="books">
+            <h2 class="section-title">Books</h2>
+            <div class="row">
+                <!-- Generate plenty of book entries -->
+                <div class="col-md-4">
+                    <div class="card book-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Book Title 1</h5>
+                            <p class="card-text">Author: Author 1</p>
+                            <p class="card-text">Price: $10.00</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card book-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Book Title 2</h5>
+                            <p class="card-text">Author: Author 2</p>
+                            <p class="card-text">Price: $15.00</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card book-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Book Title 3</h5>
+                            <p class="card-text">Author: Author 3</p>
+                            <p class="card-text">Price: $20.00</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card book-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Book Title 4</h5>
+                            <p class="card-text">Author: Author 4</p>
+                            <p class="card-text">Price: $12.00</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card book-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Book Title 5</h5>
+                            <p class="card-text">Author: Author 5</p>
+                            <p class="card-text">Price: $18.00</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card book-card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Book Title 6</h5>
+                            <p class="card-text">Author: Author 6</p>
+                            <p class="card-text">Price: $22.00</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more book entries as needed -->
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">About Us</h2>
+            <p>Welcome to our Book Store! We are passionate about books and aim to provide a wide range of titles to suit all tastes. Whether you're looking for the latest bestseller or a classic novel, we have something for everyone. Our knowledgeable staff are always on hand to offer recommendations and help you find your next great read.</p>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <img src="https://via.placeholder.com/80" alt="Customer 1">
+                        <p>"Great selection of books and excellent customer service!"</p>
+                        <p><strong>- Customer 1</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <img src="https://via.placeholder.com/80" alt="Customer 2">
+                        <p>"I found exactly what I was looking for. Highly recommend!"</p>
+                        <p><strong>- Customer 2</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <img src="https://via.placeholder.com/80" alt="Customer 3">
+                        <p>"A wonderful place to discover new books and authors."</p>
+                        <p><strong>- Customer 3</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter">
+            <h2 class="section-title">Subscribe to Our Newsletter</h2>
+            <p>Stay updated with the latest book releases and special offers.</p>
+            <form class="d-flex justify-content-center">
+                <input type="email" class="form-control" placeholder="Enter your email">
+                <button class="btn btn-warning" type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <p>If you have any questions or need assistance, please don't hesitate to get in touch. You can reach us at:</p>
+            <ul>
+                <li>Email: info@bookstore.com</li>
+                <li>Phone: (123) 456-7890</li>
+                <li>Address: 123 Book St, Reading City, RS 12345</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="mb-0">© 2023 Book Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
